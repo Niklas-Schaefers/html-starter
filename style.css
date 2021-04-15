@@ -51,13 +51,20 @@ a:hover {
   padding: 30px;
   margin: 0px;
 }
+
+.peoples {
+  display: grid;
+  grid-gap: 2em;
+  margin-top: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
 article {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
   background-color: #3c3e44;
   color: #f5f5f5;
-  margin: 80px;
   border-radius: 1em;
 }
 
@@ -70,13 +77,12 @@ article img {
 
 h3 {
   color: #9e9e9f;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: lighter;
 }
 
 .text-box {
   display: grid;
-  vertical-align: top;
   padding: 0.75em;
 }
 
