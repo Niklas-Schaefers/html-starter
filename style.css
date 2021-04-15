@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 0px;
   background-color: rgb(36, 40, 47);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,12 +16,16 @@ header {
   font-weight: bold;
 }
 
-header li {
-  display: inline;
+.navbar {
+  float: right;
 }
 
 .navbar {
   float: right;
+}
+
+header li {
+  display: inline;
 }
 
 header a:link,
@@ -42,28 +47,36 @@ a:hover {
   color: #f99803;
 }
 
-#hero {
+.hero {
   background: white;
   color: #202329;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 4.2em;
   text-align: center;
-  padding-block: 50px;
+  padding: 30px;
+  margin: 0px;
 }
 article {
   background-color: #3c3e44;
   color: #f5f5f5;
-  margin: 0px;
-  padding: 0px;
+  margin: 80px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-block: 40px;
 }
 
-.text-box {
-  display: inline;
-  float: right;
+img {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 h3 {
   color: #9e9e9f;
   font-size: 16px;
   font-weight: lighter;
+}
+
+.text-box {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
 }
